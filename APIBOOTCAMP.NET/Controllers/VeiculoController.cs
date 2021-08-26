@@ -71,7 +71,6 @@ namespace APIBOOTCAMP.NET.Controllers
             return NoContent();
         }
 
-
         [HttpPost]
         public async Task<ActionResult<Veiculo>> PostVeiculo(Veiculo veiculo)
         {
